@@ -1,0 +1,63 @@
+body{background-color: #F1F1F1;}
+/* Start Form */
+Form{
+    width: 50%;
+    margin: 1.5rem auto;
+}
+form .form-group{
+    margin-bottom: 0px;
+    position: relative;
+}
+form  .asterisx{
+    position: absolute;
+    right: 21px;
+    top: 0px;
+    font-size: 35px;
+    background-color: red;
+}
+form input , form textarea{
+    margin-bottom: .75rem;
+    padding-left: 2.2rem!important;
+}
+form textarea{
+    height: 120px!important;
+    padding-left: 12px!important;
+}
+form .icon{
+    height: 0px;
+    float: left;
+    position: relative;
+    top: -38px;
+    left: 12px;
+    color: #99a091;
+}
+form .info{
+    display: block;
+    position: relative;
+    left: 12px;
+    top: 43px;
+    color: #fff;
+    margin-top: -14px;
+    
+}
+
+form .control-input{
+    padding: 6px 15px;
+    display: none;
+}
+
+/* Media Phone */
+@media screen and (max-width: 576px) {
+  Form{
+    width: 88%;
+    margin: 1.5rem auto;
+}
+}
+
+/* Media Tablet */
+@media screen and (max-width: 768px) {
+  Form{
+    width: 88%;
+    margin: 1.5rem auto;
+}
+}
